@@ -2,7 +2,7 @@ body{
     font-family: Arial, sans-serif;
     margin: 0;
 padding: 0;
-background-color: white;
+background-color: rgb(231, 227, 221);
 color: black;
 
 
@@ -22,12 +22,30 @@ text-align: center;
 /* configura foto do curriculo*/
 .foto-perfil{
 
-width: 150px;
-height: 190px;
+width: 160px;
+height: 180px;
 border-radius:900% ;
 border: 3px solid black;
 
 }
 a {text-decoration: none;
+color: white;
+}
+
+section{
+
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
+}
+
+footer{
+
+text-align: center;
+padding: 10px;
+background: black;
 color: white;
 }
